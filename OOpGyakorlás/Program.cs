@@ -1,4 +1,6 @@
-﻿namespace OOpGyakorlás
+﻿using OOPgyakorlas;
+
+namespace OOpGyakorlás
 {
 	internal class Program
 	{
@@ -15,7 +17,13 @@
 
             Console.WriteLine();
             Console.WriteLine(konyv1.ToString() + "\n" + konyv2.HanyOldalMaradt(20));
+			
 
-		}
+			Film film1 = new Film("A kis herceg", "Antonia", 1943, "Fantasy", true);
+            Film film2 = new("Ez meg keszul", "Én");
+            Console.WriteLine(film1.ToString() + "\n" + film2.ToString());
+			Console.WriteLine();
+
+        }
 	}
 }
