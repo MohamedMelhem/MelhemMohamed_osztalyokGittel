@@ -24,6 +24,20 @@ namespace OOpGyakorlás
             Console.WriteLine(film1.ToString() + "\n" + film2.ToString());
 			Console.WriteLine();
 
+			Videojatek jatekos = new Videojatek("Ferencz", 100);
+            Videojatek jatekos2 = new("Béla", 200);
+            Console.WriteLine(jatekos.ToString() + "\n" + jatekos2.ToString());
+			Videojatek jatekos3 = new Videojatek("lovag", 100, 100, 100);
+            Videojatek jatekos4 = new("kardos", 200, 200, 200);
+			jatekos.Gyogyulas(20);
+			jatekos2.SzintLepes();
+			jatekos3.Tamadas();
+            Console.WriteLine(jatekos3.ToString() + "\n" + jatekos4.ToString());
+            Console.WriteLine(jatekos);
+            Console.WriteLine(jatekos2);
+
+
+
         }
 	}
 }
