@@ -37,21 +37,23 @@ namespace OOpGyakorlás
    //         Console.WriteLine(jatekos2);
 
 
-			Urhajo spaceX = new Urhajo("Tesla", 100, 20, 100);
+			//Urhajo spaceX = new Urhajo("Tesla", 100, 20, 100);
 
-            Console.WriteLine(spaceX);
-            Console.WriteLine("A Tesla megálllt tankolni");
-			spaceX.Tankolas(20); //Megtankoltam
-            Console.WriteLine(spaceX);
+   //         Console.WriteLine(spaceX);
+   //         Console.WriteLine("A Tesla megálllt tankolni");
+			//spaceX.Tankolas(20); //Megtankoltam
+   //         Console.WriteLine(spaceX);
 
-			Urhajo Testhajo = new Urhajo("RobotImre", 1000);
-            Console.WriteLine(Testhajo);
-            Console.WriteLine("A TestHajo Elindul");
-			Testhajo.Indulas();
-            Console.WriteLine(Testhajo);
-			Testhajo.Landolas();
-            Console.WriteLine(Testhajo);
-            Console.WriteLine("Landolt");
+			//Urhajo Testhajo = new Urhajo("RobotImre", 1000);
+   //         Console.WriteLine(Testhajo);
+   //         Console.WriteLine("A TestHajo Elindul");
+			//Testhajo.Indulas();
+   //         Console.WriteLine(Testhajo);
+			//Testhajo.Landolas();
+   //         Console.WriteLine(Testhajo);
+   //         Console.WriteLine("Landolt");
+
+
 
 
 
